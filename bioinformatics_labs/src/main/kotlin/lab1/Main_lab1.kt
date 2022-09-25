@@ -7,7 +7,14 @@ fun main(args: Array<String>) {
     val seqA: String = data[0].stringToCompare
     val seqB: String = data[1].stringToCompare
 
-    println(NeedlemanWunsch(seqA, seqB, gap, matchFile))
+    val result = NeedlemanWunsch(seqA, seqB, gap, matchFile)
+    output(result)
+}
+
+fun output(result: Pair<Int, Pair<String, String>?>) {
+    println(result.first)
+    println(result.second?.first)
+    println(result.second?.second)
 }
 
 fun NeedlemanWunsch(
