@@ -44,3 +44,14 @@ prog_name --gap=-10
 10  
 AATCG  
 AA-CG  
+
+
+# Лабораторная 7 (FASTA algorithm)
+
+Использование: java -jar fasta1 fasta2 match_file
+
+Пример file1.fasta: src/main/kotlin/lab7/data/file1.fasta
+Пример file2.fasta: src/main/kotlin/lab7/data/file2.fasta
+
+Вывод: в файле src/main/kotlin/lab7/data/output.txt
+
